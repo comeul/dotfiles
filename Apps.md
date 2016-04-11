@@ -13,3 +13,4 @@ Most applications get installed through Homebrew Cask. The apps below need to be
 And the following ones need to be installed manually.
 
 - [Google Chrome](http://www.google.com/chrome): 1Password extension is sandboxed and requires it to be installed directly in `/Applications`
+- https://github.com/variadico/noti
