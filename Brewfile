@@ -22,11 +22,12 @@ brew 'homebrew/dupes/grep'
 # Install Binaries
 brew 'git'
 brew 'mackup'
+brew 'mariadb'
 brew 'node'
-brew 'wget'
-
-# PHP
 brew 'php70', args: ['with-debug', 'without-apache']
+brew 'php70-opcache'
+brew 'redis'
+brew 'wget'
 
 # Apps
 cask '1password'
