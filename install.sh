@@ -28,7 +28,7 @@ mv composer.phar /usr/local/bin/composer
 
 # Create a Sites directory
 # This is a default directory for OS X user accounts but doesn't comes pre-installed
-mkdir $HOME/Projets
+mkdir $HOME/Sites
 
 # Set OS X preferences
 # We will run this last because this will reload the shell
