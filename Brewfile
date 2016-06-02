@@ -32,6 +32,7 @@ brew 'wget'
 # Apps
 cask '1password'
 cask 'appcleaner'
+cask 'apptivate'
 cask 'avira-antivirus'
 cask 'awareness'
 cask 'bartender'
