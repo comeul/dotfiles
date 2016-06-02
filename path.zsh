@@ -1,3 +1,6 @@
+# Load Spark Installer
+export PATH="$HOME/projets/spark-installer:$PATH"
+
 # Load composer bin
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
