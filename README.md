@@ -14,10 +14,6 @@
 10. Restore preferences by running mackup restore
 11. Restart your computer to finalize the process
 
-## ToDo
-
-- Install Homestead and Homestead56?
-
 ## Thanks
 
 Thanks for https://github.com/driesvints/dotfiles, this repo is blatantly copied from it and personnalized to my needs.
