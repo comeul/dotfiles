@@ -24,11 +24,17 @@ mv composer.phar /usr/local/bin/composer
 # Install global Composer packages
 # But install prestissimo first so it's just quickier for the rest
 /usr/local/bin/composer global require hirak/prestissimo
-/usr/local/bin/composer global require laravel/installer laravel/lumen-installer squizlabs/php_codesniffer phpmd/phpmd
+/usr/local/bin/composer global require laravel/installer laravel/lumen-installer squizlabs/php_codesniffer phpmd/phpmd laravel/valet
+
+# Install Laravel Valet
+valet install
 
 # Create a Sites directory
 # This is a default directory for OS X user accounts but doesn't comes pre-installed
 mkdir $HOME/Sites
+
+# Configure Valet in the project directory
+(cd $HOME/Sites && valet park)
 
 # Set OS X preferences
 # We will run this last because this will reload the shell
