@@ -1,16 +1,13 @@
 # Applications
 
-Most applications get installed through Homebrew Cask. The apps below need to be installed from the App Store.
+Most applications get installed through Homebrew Cask. The apps below need to be installed from the App Store or manually, either probably because I've got a license to it from the App Store, or a license I got elsewhere.
 
-- Adobe CS
-- Antidote 9
-- Kaleidoscope
-- Kawa
-- Microsoft Office
 - Monit
 - Twitter
+- Adobe CS
+- Antidote 9
+- Microsoft Office
 
-And the following ones need to be installed manually.
 
-- [Google Chrome](http://www.google.com/chrome): 1Password extension is sandboxed and requires it to be installed directly in `/Applications`
-- https://github.com/variadico/noti
+- https://github.com/gjrdiesel/homestead56 (If I need to work on Laravel 4)
+- http://pictogram.agency/muir/ (Nice icons)
