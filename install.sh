@@ -32,9 +32,8 @@ npm install -g browser-sync
 # Install Laravel Valet
 valet install
 
-# Create a Sites directory
-# This is a default directory for OS X user accounts but doesn't comes pre-installed
-mkdir $HOME/Sites
+# Create a Projets directory
+mkdir $HOME/Projets
 
 # Configure Valet in the project directory
 (cd $HOME/Sites && valet park)
